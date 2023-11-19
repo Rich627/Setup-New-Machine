@@ -1,0 +1,27 @@
+# requirements.yml
+
+
+name: tensorflow
+
+channels:
+  - defaults
+  - conda-forge
+  
+packages:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - jupyter
+  - nltk
+  - spacy
+  - gensim
+  - opencv-python
+  - xgboost
+  - lightgbm
+  - catboost
+  - fastai
+  - statsmodels
+  - plotly
+  - bokeh
