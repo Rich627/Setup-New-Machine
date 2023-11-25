@@ -1,11 +1,15 @@
-import numpy as np
-import pandas as pd
-import sklearn
 import tensorflow as tf
-import matplotlib.pyplot as plt
 
-# Check for TensorFlow GPU access
-print(f"TensorFlow has access to the following devices:\n{tf.config.list_physical_devices()}")
+def test_tensorflow_mps_support():
+    # List all available devices and check for Apple M series chip
+    devices = tf.config.list_physical_devices()
+    mps_device = any("METAL" in str(device).upper() for device in devices)
 
-# See TensorFlow version
-print(f"TensorFlow version: {tf.__version__}")
+    # Print the result
+    if mps_device:
+        print("Success: TensorFlow supports MPS acceleration on Apple M series chip.")
+    else:
+        print("Failure: TensorFlow does not support MPS acceleration on Apple M series chip.")
+
+if __name__ == "__main__":
+    test_tensorflow_mps_support()
