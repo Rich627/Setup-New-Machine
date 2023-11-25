@@ -1,13 +1,10 @@
-# requirements.yml
-
-
-name: tensorflow
+name: MachineLearning
 
 channels:
   - defaults
   - conda-forge
-  
-packages:
+
+dependencies:
   - numpy
   - pandas
   - matplotlib
@@ -15,13 +12,10 @@ packages:
   - seaborn
   - jupyter
   - nltk
-  - spacy
-  - gensim
-  - opencv-python
-  - xgboost
-  - lightgbm
-  - catboost
-  - fastai
   - statsmodels
   - plotly
-  - bokeh
+  - requests
+  - beautifulsoup4
+  - tensorflow
+  - keras
+  - pytorch

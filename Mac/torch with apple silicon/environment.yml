@@ -1,13 +1,10 @@
-# requirements.yml
-
-
-name: tensorflow
+name: Pytorch
 
 channels:
   - defaults
   - conda-forge
   
-packages:
+dependencies:
   - numpy
   - pandas
   - matplotlib
@@ -15,13 +12,7 @@ packages:
   - seaborn
   - jupyter
   - nltk
-  - spacy
-  - gensim
-  - opencv-python
-  - xgboost
-  - lightgbm
-  - catboost
-  - fastai
   - statsmodels
   - plotly
-  - bokeh
+  - requests
+  - beautifulsoup4

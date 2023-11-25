@@ -12,3 +12,4 @@ brew install --cask adobe-acrobat-reader
 
 chmod +x install_software.sh
 ./install_software.sh
+

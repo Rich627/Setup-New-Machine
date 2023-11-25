@@ -7,6 +7,10 @@ Function Download-And-Install($Url, $OutFile)
     # install file
     Start-Process -FilePath $OutFile -Args '/silent /install' -Wait -NoNewWindow
 }
+# visual studio community
+curl -o VisualStudioCommunityInstaller.exe https://visualstudio.microsoft.com/zh-hant/vs/community/
+Invoke-WebRequest -Uri "https://developer.nvidia.com/cuda-downloads" -OutFile "cuda-setup.exe"
+Start-Process -FilePath ".\cuda-setup.exe" -Wait
 
 # if you want to install other app, just add the url and outfile
 $chromeUrl = "https://dl.google.com/chrome/install/latest/chrome_installer.exe"

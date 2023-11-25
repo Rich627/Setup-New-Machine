@@ -1,7 +1,4 @@
-# requirements.yml
-
-
-name: tensorflow
+name: Tensorflow
 
 channels:
   - defaults
@@ -15,13 +12,9 @@ packages:
   - seaborn
   - jupyter
   - nltk
-  - spacy
-  - gensim
-  - opencv-python
-  - xgboost
-  - lightgbm
-  - catboost
-  - fastai
   - statsmodels
   - plotly
-  - bokeh
+  - requests
+  - beautifulsoup4
+  
+
