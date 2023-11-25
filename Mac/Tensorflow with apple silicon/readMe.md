@@ -1,4 +1,4 @@
-### Run the script.bash
+### Run the script.bash(if permission is denided, use 'chmod +x script.bash')
 This scipt will install homebrew, vscode, docker, mysql, r, rstudio, xcode-select, miniconda
 ### Change path and install ds package 
 Restart terminal
@@ -14,4 +14,7 @@ pip install tensorflow-macos
 pip install tensorflow-metal
 ### Test GPU is available or not
 python3 Mac/Tensorflow with apple silicon/tensorflowTestCode.py
+### Run the checkinstallation.sh(if permission is denided, use 'chmod +x checkinstallation.bash')
+Check all download is complete
+
 

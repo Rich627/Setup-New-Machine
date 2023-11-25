@@ -16,3 +16,4 @@ dependencies:
   - plotly
   - requests
   - beautifulsoup4
+  - python=3.9
