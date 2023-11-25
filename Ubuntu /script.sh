@@ -18,10 +18,8 @@ sudo apt-get install code:arm64
 # Install Google Chrome 
 sudo apt install chromium-browser -y
 
-
 # Install R 
 sudo apt install r-base -y
-
 
 # Install MySQL (Make sure to select the ARM64 package)
 sudo apt install mysql-server -y
@@ -33,9 +31,6 @@ sudo apt install git -y
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh -O ~/miniforge.sh
 bash ~/miniforge.sh -b -p ~/miniforge
 rm ~/miniforge.sh
-
 echo "PATH=$PATH:$HOME/miniforge/bin" >> .bashrc
 source .bashrc
 
-conda env create -f environment.yml
-source activate name

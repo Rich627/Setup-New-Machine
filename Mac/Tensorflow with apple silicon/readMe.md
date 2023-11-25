@@ -8,6 +8,9 @@ conda env create -f Mac/Tensorflow with apple silicon/ReadMe.md
 conda activate Tensorflow
 conda update --all
 pip install --upgrade pip
+### Install python and jupyter in vscode
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-python.python
 ### Install tensorflow with apple silicon
 conda install -c apple tensorflow-deps
 pip install tensorflow-macos
@@ -16,5 +19,6 @@ pip install tensorflow-metal
 python3 Mac/Tensorflow with apple silicon/tensorflowTestCode.py
 ### Run the checkinstallation.sh(if permission is denided, use 'chmod +x checkinstallation.bash')
 Check all download is complete
+
 
 
