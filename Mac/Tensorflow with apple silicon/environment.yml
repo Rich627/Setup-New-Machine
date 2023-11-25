@@ -4,7 +4,7 @@ channels:
   - defaults
   - conda-forge
   
-packages:
+dependencies:
   - numpy
   - pandas
   - matplotlib

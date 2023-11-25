@@ -18,11 +18,9 @@ brew install --cask google-chrome
 brew install --cask firefox
 brew install --cask slack
 brew install --cask zoom
-brew install --cask microsoft-teams
 brew install --cask notion
-brew install --cask spotify
 brew install --cask r
 brew install --cask rstudio
 brew install --cask mysql
-brew install git
+brew install --cask git
 
