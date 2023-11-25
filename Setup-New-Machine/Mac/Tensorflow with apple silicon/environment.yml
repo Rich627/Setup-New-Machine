@@ -1,0 +1,20 @@
+name: Tensorflow
+
+channels:
+  - defaults
+  - conda-forge
+  
+packages:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - jupyter
+  - nltk
+  - statsmodels
+  - plotly
+  - requests
+  - beautifulsoup4
+  
+
