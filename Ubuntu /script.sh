@@ -24,13 +24,16 @@ sudo apt install r-base -y
 # Install MySQL (Make sure to select the ARM64 package)
 sudo apt install mysql-server -y
 
+# Install vim
+sudo apt install vim -y
+
 # Install Git
 sudo apt install git -y
 
-# Get Miniforge and make it the main Python interpreter
-wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh -O ~/miniforge.sh
-bash ~/miniforge.sh -b -p ~/miniforge
-rm ~/miniforge.sh
-echo "PATH=$PATH:$HOME/miniforge/bin" >> .bashrc
-source .bashrc
+# Get Miniconda
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
+bash ~/Miniconda3-latest-Linux-aarch64.sh -b -p $HOME/miniforge3
+rm ~/Miniconda3-latest-Linux-aarch64.sh
+
+
 

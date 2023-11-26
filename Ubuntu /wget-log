@@ -1,0 +1,17 @@
+--2023-11-26 14:43:36--  https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
+Resolving github.com (github.com)... 20.27.177.113
+Connecting to github.com (github.com)|20.27.177.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/conda-forge/miniforge/releases/download/23.3.1-1/Miniforge3-Linux-aarch64.sh [following]
+--2023-11-26 14:43:36--  https://github.com/conda-forge/miniforge/releases/download/23.3.1-1/Miniforge3-Linux-aarch64.sh
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/221584272/e18a87ca-cc0d-4366-98c8-e1a181554860?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231126T064336Z&X-Amz-Expires=300&X-Amz-Signature=b998a7c735c4e415b7da41c211f07284a14229c3996405359ddd8830cdaffbcf&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=221584272&response-content-disposition=attachment%3B%20filename%3DMiniforge3-Linux-aarch64.sh&response-content-type=application%2Foctet-stream [following]
+--2023-11-26 14:43:37--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/221584272/e18a87ca-cc0d-4366-98c8-e1a181554860?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231126%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231126T064336Z&X-Amz-Expires=300&X-Amz-Signature=b998a7c735c4e415b7da41c211f07284a14229c3996405359ddd8830cdaffbcf&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=221584272&response-content-disposition=attachment%3B%20filename%3DMiniforge3-Linux-aarch64.sh&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 76272901 (73M) [application/octet-stream]
+Saving to: ‘/home/parallels/miniforge.sh’
+
+/home/parallels/miniforge.sh        11%[=====>                                                        ]   8.06M  1.89MB/s    eta 39s    /home/parallels/miniforge.sh        11%[======>                                                       ]   8.43M  1.89MB/s    eta 39s    /home/parallels/miniforge.sh        12%[======>                                                       ]   8.82M  1.89MB/s    eta 37s    /home/parallels/miniforge.sh        12%[======>                                                       ]   9.21M  1.89MB/s    eta 37s    /home/parallels/miniforge.sh        13%[=======>                                                      ]   9.60M  1.89MB/s    eta 37s    /home/parallels/miniforge.sh        13%[=======>                                                      ]   9.98M  1.89MB/s    eta 37s    
