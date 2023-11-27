@@ -30,10 +30,13 @@ sudo apt install vim -y
 # Install Git
 sudo apt install git -y
 
-# Get Miniconda
+# 从当前目录下载 Miniconda 安装脚本
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
-bash ~/Miniconda3-latest-Linux-aarch64.sh -b -p $HOME/miniconda
-rm ~/Miniconda3-latest-Linux-aarch64.sh
+# 执行安装脚本，安装 Miniconda 到家目录下的 miniconda 文件夹
+bash Miniconda3-latest-Linux-aarch64.sh -b -p $HOME/miniconda
+# 删除安装脚本
+rm Miniconda3-latest-Linux-aarch64.sh
+
 
 
 

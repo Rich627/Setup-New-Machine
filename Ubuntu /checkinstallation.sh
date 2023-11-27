@@ -29,10 +29,10 @@ check_command mysql
 check_command git
 
 # Check Miniforge
-if [ -d "$HOME/miniforge" ]; then
-  echo "Miniforge installed"
+if [ -d "$HOME/miniconda" ]; then
+  echo "Miniconda installed"
 else
-  echo "Miniforge NOT installed"
+  echo "Miniconda NOT installed"
 fi
 
 # Script check completion

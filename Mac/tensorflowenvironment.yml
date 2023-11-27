@@ -1,4 +1,4 @@
-name: Pytorch
+name: Tensorflow
 
 channels:
   - defaults
@@ -17,3 +17,5 @@ dependencies:
   - requests
   - beautifulsoup4
   - python=3.9
+  
+
