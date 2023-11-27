@@ -4,24 +4,20 @@ $downloads = @{
         "OutFile" = "C:\Temp\chrome_installer.exe"
     }
     "Git" = @{
-        "Url" = "https://git-scm.com/download/win"
+        "Url" = "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe"
         "OutFile" = "C:\Temp\git_installer.exe"
     }
     "VSCode" = @{
-        "Url" = "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+        "Url" = "https://code.visualstudio.com/sha/download?build=stable&os=win32-arm64-user"
         "OutFile" = "C:\Temp\vscode_installer.exe"
     }
     "MSSQL" = @{
-        "Url" = "https://go.microsoft.com/fwlink/?linkid=866658"
+        "Url" = "https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x404&culture=zh-tw&country=tw"
         "OutFile" = "C:\Temp\mssql_installer.exe"
     }
     "MSSQLManagementStudio" = @{
-        "Url" = "https://go.microsoft.com/fwlink/?linkid=2168061"
+        "Url" = "https://aka.ms/ssmsfullsetup"
         "OutFile" = "C:\Temp\mssqlmanagementstudio_installer.exe"
-    }
-    "Docker" = @{
-        "Url" = "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe"
-        "OutFile" = "C:\Temp\docker_installer.exe"
     }
     "R" = @{
         "Url" = "https://cran.r-project.org/bin/windows/base/R-4.3.2-win.exe"
@@ -49,11 +45,6 @@ foreach ($software in $downloads.Keys) {
     
     Write-Host "Downloading $software..."
     Invoke-WebRequest -Uri $url -OutFile $outfile
-
-    Write-Host "Installing $software..."
-    Start-Process -FilePath $outfile -ArgumentList $installArgs -Wait -NoNewWindow
-
-    Write-Host "$software installed."
 }
 
-Write-Host "All downloads and installations complete."
+Write-Host "All downloads is complete."

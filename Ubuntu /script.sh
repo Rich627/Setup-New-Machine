@@ -32,7 +32,7 @@ sudo apt install git -y
 
 # Get Miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh
-bash ~/Miniconda3-latest-Linux-aarch64.sh -b -p $HOME/miniforge3
+bash ~/Miniconda3-latest-Linux-aarch64.sh -b -p $HOME/miniconda
 rm ~/Miniconda3-latest-Linux-aarch64.sh
 
 

@@ -21,11 +21,6 @@ Use root run checkinstallation.ps1
 
 Check all download is complete
 
-visual studio code
-vim 
-r
 
 
-
-fail
-rstuio r docker node vscode
+https://www.youtube.com/watch?v=QQIivlr_CKk

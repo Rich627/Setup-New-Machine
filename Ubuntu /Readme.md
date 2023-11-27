@@ -5,9 +5,10 @@ chmod +x script.sh
 注意路徑
 ./script.sh
 ### Install python for data science
-cd ~/miniforge
+cd ~/miniconda
 注意路徑
 echo 'export PATH="$HOME/miniforge3/bin:$PATH"' >> ~/.bashrc
+
 source .bashrc
 conda env create -f 'SETUP-NEW-MACHINE/Ubuntu/environment.yml'
 source activate MachineLearning
@@ -20,3 +21,6 @@ code --install-extension ms-python.python
 chmod +x checkinstallation.sh
 ./checkinstallation.sh
 Check all download is complete
+
+
+https://ubuntu.com/tutorials/ubuntu-desktop-aws#4-aws-configuration
