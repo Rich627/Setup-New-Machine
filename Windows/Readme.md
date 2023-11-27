@@ -24,3 +24,6 @@ Check all download is complete
 
 
 https://www.youtube.com/watch?v=QQIivlr_CKk
+
+docker網址錯誤
+r, rstusio沒裝到
