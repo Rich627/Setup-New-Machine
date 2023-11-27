@@ -1,13 +1,13 @@
 ## Setup Ubuntu Env with aarch64 
 ### Install Chrome, git, vscode, docker, python, R, rsutio, mysql
-cd Downloads/Setup-New-Machine-main/Ubuntu/
+cd ~/Downloads/Setup-New-Machine-main/Ubuntu/
 chmod +x script.sh
 ./script.sh
 ### Install python for data science
 cd ~/miniconda
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
-conda env create -f environment.yml
+conda env create -f ~/Downloads/Set-up-New-Machine-main/Ubuntu\ /environment.yml
 source activate MachineLearning
 
 ### Install python and jupyter in vscode

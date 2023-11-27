@@ -1,5 +1,5 @@
 ### This scipt will install homebrew, vscode, docker, mysql, r, rstudio, xcode-select, miniconda
-cd Downloads/Setup-New-Machine-main/Mac
+cd ~/Downloads/Setup-New-Machine-main/Mac
 chmod +X script.bash
 ./script.bash
 ### Install python and jupyter in vscode
