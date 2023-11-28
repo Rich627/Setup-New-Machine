@@ -16,7 +16,8 @@ Start-Process -FilePath .\git_installer.exe -Wait -ArgumentList "/VERYSILENT"
 
 # Install MSSQL
 Write-Host "Installing MSSQL..."
-Start-Process -FilePath .\mssql_installer.exe -Wait -ArgumentList "/quiet", "/norestart"
+Start-Process -FilePath .\mssql_installer.exe -Wait -ArgumentList "/quiet", "/IAcceptSQLServerLicenseTerms"
+
 
 # Install MSSQL Management Studio
 Write-Host "Installing MSSQL Management Studio..."

@@ -17,6 +17,7 @@ pip install tensorflow-metal
 python3 ~/Downloads/Setup-New-Machine-main/Mac/tensorflowTestCode.py
 ### Create torch env
 conda env create -f ~/Downloads/Setup-New-Machine-main/Mac/torchenvironment.yml
+### Activate env
 Conda activate Pytorch
 conda update --all
 pip install --upgrade pip
