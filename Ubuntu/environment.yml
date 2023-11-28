@@ -18,4 +18,6 @@ dependencies:
   - beautifulsoup4
   - tensorflow
   - keras
-  - pytorch
+  - torch
+  - torchvision
+  - pyhton=3.10

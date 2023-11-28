@@ -12,8 +12,13 @@ source activate MachineLearning
 ### Install python and jupyter in vscode
 code --install-extension ms-toolsai.jupyter
 code --install-extension ms-python.python
+### Install torch
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ### Run the checkinstallation.sh(if permission is denided, use 'chmod +x checkinstallation.bash')
 cd ~/Downloads/Setup-New-Machine-main/Ubuntu/
 chmod +x checkinstallation.sh
 ./checkinstallation.sh
 Check all download is complete
+
+
+# Pytorch有問題

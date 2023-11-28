@@ -18,4 +18,3 @@ dependencies:
   - beautifulsoup4
   - tensorflow
   - keras
-  - pytorch

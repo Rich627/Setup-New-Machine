@@ -22,7 +22,6 @@ foreach ($software in $installations.Keys) {
             Write-Host "$software is NOT installed."
         }
     } else {
-        # Check for file existence
         if (Test-Path -Path $path) {
             Write-Host "$software is installed."
         } else {
