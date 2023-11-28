@@ -1,10 +1,10 @@
 ## Setup Win11 
 ### Install Chrome, vscode, docker, mssql, r, python, rstudio, mysql
 Set-ExecutionPolicy RemoteSigned
-Use root run ./script.ps1
+./script.ps1
 cd C:\Temp\
 
-~/Downloadas/Setup-New-Machine-main/-Windows/install.ps1
+~/Downloadas/Setup-New-Machine-main/Windows/install.ps1
 ### Install python for data science
 cd ~/miniforge
 conda env create -f /environment.yml
