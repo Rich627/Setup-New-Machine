@@ -7,17 +7,13 @@ chmod +x script.sh
 cd ~/miniconda
 echo 'export PATH="$HOME/miniconda/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
-conda env create -f ~/Downloads/Set-up-New-Machine-main/Ubuntu\ /environment.yml
+conda env create -f ~/Downloads/Setup-New-Machine-main/Ubuntu/environment.yml
 source activate MachineLearning
-
 ### Install python and jupyter in vscode
 code --install-extension ms-toolsai.jupyter
 code --install-extension ms-python.python
-
 ### Run the checkinstallation.sh(if permission is denided, use 'chmod +x checkinstallation.bash')
+cd ~/Downloads/Setup-New-Machine-main/Ubuntu/
 chmod +x checkinstallation.sh
 ./checkinstallation.sh
 Check all download is complete
-
-
-https://ubuntu.com/tutorials/ubuntu-desktop-aws#4-aws-configuration

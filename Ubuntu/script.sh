@@ -6,7 +6,7 @@ sudo apt-get update && sudo apt-get upgrade
 # # Install Docker 
 sudo apt install docker.io -y
 
-# Install VSCode 
+# Install VSCode(arm64 version)
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
 sudo sh -c 'echo "deb [arch=arm64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'

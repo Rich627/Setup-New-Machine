@@ -3,10 +3,11 @@ $installations = @{
     "Chrome" = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe"
     "Git" = "C:\Program Files\Git\cmd\git.exe"
     "VSCode" = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\VisualStudioCode"
-    "MSSQL" = "HKLM:\SOFTWARE\Microsoft\Microsoft SQL Server"
-    "Docker" = "C:\Program Files\Docker\Docker\Docker Desktop.exe"
-    "R" = "C:\Program Files\R\R-4.2.0\bin\R.exe"
-    "RStudio" = "C:\Program Files\RStudio\bin\rstudio.exe"
+    # "MSSQL" = "HKLM:\SOFTWARE\Microsoft\Microsoft SQL Server"
+    # "MSSQLManagementStudio" = "HKLM:\SOFTWARE\Microsoft\Microsoft SQL Server Management Studio"
+    # "Docker" = "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+    # "R" = "C:\Program Files\R\R-4.2.0\bin\R.exe"
+    # "RStudio" = "C:\Program Files\RStudio\bin\rstudio.exe"
     "NodeJS" = "C:\Program Files\nodejs\node.exe"
 }
 

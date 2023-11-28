@@ -6,9 +6,9 @@
 Write-Host "Installing Chrome..."
 Start-Process -FilePath .\chrome_installer.exe -Wait -ArgumentList "/silent", "/install"
 
-# Install Docker
-Write-Host "Installing Docker..."
-Start-Process -FilePath .\docker_installer.exe -Wait -ArgumentList "/Install", "/Quiet"
+# # Install Docker
+# Write-Host "Installing Docker..."
+# Start-Process -FilePath .\docker_installer.exe -Wait -ArgumentList "/Install", "/Quiet"
 
 # Install Git
 Write-Host "Installing Git..."
@@ -27,3 +27,5 @@ Write-Host "Installing Visual Studio Code..."
 Start-Process -FilePath .\vscode_installer.exe -Wait -ArgumentList "/silent", "/mergetasks=!runcode"
 
 Write-Host "Installation of all software is complete."
+
+

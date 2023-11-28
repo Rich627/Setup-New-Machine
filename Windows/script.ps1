@@ -11,14 +11,18 @@ $downloads = @{
         "Url" = "https://code.visualstudio.com/sha/download?build=stable&os=win32-arm64-user"
         "OutFile" = "C:\Temp\vscode_installer.exe"
     }
-    "MSSQL" = @{
-        "Url" = "https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x404&culture=zh-tw&country=tw"
-        "OutFile" = "C:\Temp\mssql_installer.exe"
-    }
-    "MSSQLManagementStudio" = @{
-        "Url" = "https://aka.ms/ssmsfullsetup"
-        "OutFile" = "C:\Temp\mssqlmanagementstudio_installer.exe"
-    }
+    # "Docker" = @{
+    #     "Url" = "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe"
+    #     "OutFile" = "C:\Temp\docker_installer.exe"
+    # }
+    # "MSSQL" = @{
+    #     "Url" = "https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x404&culture=zh-tw&country=tw"
+    #     "OutFile" = "C:\Temp\mssql_installer.exe"
+    # }
+    # "MSSQLManagementStudio" = @{
+    #     "Url" = "https://aka.ms/ssmsfullsetup"
+    #     "OutFile" = "C:\Temp\mssqlmanagementstudio_installer.exe"
+    # }
     "R" = @{
         "Url" = "https://cran.r-project.org/bin/windows/base/R-4.3.2-win.exe"
         "OutFile" = "C:\Temp\r_installer.exe"

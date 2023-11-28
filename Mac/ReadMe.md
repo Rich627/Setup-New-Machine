@@ -2,12 +2,8 @@
 cd ~/Downloads/Setup-New-Machine-main/Mac
 chmod +X script.bash
 ./script.bash
-### Install python and jupyter in vscode
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-python.python
 ### Create tensorflow env
 Restart terminal
-cd ~/miniconda3
 conda env create -f ~/Downloads/Setup-New-Machine-main/Mac/tensorflowenvironment.yml
 ### Activate env 
 conda activate Tensorflow
@@ -20,7 +16,6 @@ pip install tensorflow-metal
 ### Test GPU is available or not
 python3 ~/Downloads/Setup-New-Machine-main/Mac/tensorflowTestCode.py
 ### Create torch env
-cd ~/miniconda3
 conda env create -f ~/Downloads/Setup-New-Machine-main/Mac/torchenvironment.yml
 Conda activate Pytorch
 conda update --all
@@ -30,5 +25,7 @@ pip3 install torch torchvision torchaudio
 ### Test MPS is available or NOT
 python3 ~/Downloads/Setup-New-Machine-main/Mac/torchTestCode.py
 ### Run the checkinstallation.sh(if permission is denided, use 'chmod +x checkinstallation.bash')
-Check all download is complete
+cd ~/Downloads/Setup-New-Machine-main/Mac/
+chmod +x checkinstallation.sh
+./checkinstallation.sh
 
