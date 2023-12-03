@@ -13,6 +13,8 @@ rm -rf ~/miniconda3/miniconda.sh
 
 
 brew install --cask docker
+brew install --cask line 
+
 brew install --cask visual-studio-code
 brew install --cask google-chrome
 brew install --cask firefox

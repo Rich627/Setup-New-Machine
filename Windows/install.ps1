@@ -7,8 +7,8 @@ Write-Host "Installing Chrome..."
 Start-Process -FilePath .\chrome_installer.exe -Wait -ArgumentList "/silent", "/install"
 
 # # Install Docker
-# Write-Host "Installing Docker..."
-# Start-Process -FilePath .\docker_installer.exe -Wait -ArgumentList "/Install", "/Quiet"
+Write-Host "Installing Docker..."
+Start-Process -FilePath .\docker_installer.exe -Wait -ArgumentList "/Install", "/Quiet"
 
 # Install Git
 Write-Host "Installing Git..."
@@ -32,12 +32,12 @@ Write-Host "Installing Visual Studio Code..."
 Start-Process -FilePath .\vscode_installer.exe -Wait -ArgumentList "/silent", "/mergetasks=!runcode"
 
 # # Install R
-# Write-Host "Installing R..."
-# Start-Process -FilePath .\r_installer.exe -Wait -ArgumentList "/SILENT"
+Write-Host "Installing R..."
+Start-Process -FilePath .\r_installer.exe -Wait -ArgumentList "/SILENT"
 
 # # Install RStudio
-# Write-Host "Installing RStudio..."
-# Start-Process -FilePath .\rstudio_installer.exe -Wait -ArgumentList "/S"
+Write-Host "Installing RStudio..."
+Start-Process -FilePath .\rstudio_installer.exe -Wait -ArgumentList "/S"
 
 # Install Conda
 Write-Host "Installing Conda..."
