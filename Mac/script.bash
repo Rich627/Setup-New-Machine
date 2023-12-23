@@ -11,18 +11,16 @@ rm -rf ~/miniconda3/miniconda.sh
 ~/miniconda3/bin/conda init bash
 ~/miniconda3/bin/conda init zsh
 
-
-brew install --cask docker
-brew install --cask line 
-
 brew install --cask visual-studio-code
-brew install --cask google-chrome
-brew install --cask firefox
-brew install --cask slack
-brew install --cask zoom
-brew install --cask notion
-brew install --cask r
-brew install --cask rstudio
-brew install --cask mysql
+brew install --cask docker
 brew install --cask git
+# brew install --cask line 
+# brew install --cask google-chrome
+# brew install --cask firefox
+# brew install --cask slack
+# brew install --cask zoom
+# brew install --cask notion
+# brew install --cask r
+# brew install --cask rstudio
+# brew install --cask mysql
 
